@@ -21,7 +21,7 @@ export class Layout extends Component {
 
 
 	handleInputChange(event) {
-		const selectedRoute = this.state.data.filter(d => d.route === event.target.value);
+		const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route.includes(event.target.value));
 
 		this.setState({
 			filteredData: selectedRoute
@@ -40,6 +40,7 @@ export class Layout extends Component {
 				<h1>Are buses cancelled on my route?</h1>
 				<Input onChange={this.handleInputChange.bind(this)}></Input>
 				{results}
+				<footer className="footer">Scroll...</footer>
 			</Aux>
 		);
 	}

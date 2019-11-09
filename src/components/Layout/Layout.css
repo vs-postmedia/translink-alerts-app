@@ -7,3 +7,10 @@
 	margin: 0 auto 25px auto;
 	text-align: center;
 }
+
+.footer {
+	background-color: lightgrey;
+	color: #FFF;
+	padding: 2px 0;
+	text-align: center;
+}
