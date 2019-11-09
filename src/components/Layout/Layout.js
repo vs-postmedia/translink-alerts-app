@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Aux from '../Aux/Aux';
-import Tabletop from 'tabletop';
 import Input from '../Input/Input';
 import CardList from '../CardList/CardList';
 import './Layout.css';
@@ -12,17 +11,12 @@ export class Layout extends Component {
 	};
 
 	componentDidMount() {
-		// load data from Google sheet
-		Tabletop.init({
-			key: this.props.sheet,
-			callback: (data, tabletop) => {
-				this.setState({
-					data: data,
-					filteredData: data
-				});
-			},
-			simpleSheet: true
-		});
+		fetch(this.props.dataURL)
+			.then(response => response.json())
+			.then(data => this.setState({ 
+				data: data,
+				filteredData: data
+			}));
 	}
 
 
