@@ -3,17 +3,23 @@ import './Card.css';
 
 const Card = (props) => {
 	const d = props.data;
+
+	const date = d.time.split('-')
+	const day = `${date[1]}. ${date[0]}`;
+	const times = d.time.split(' ');
+	const time = `${times[1]} ${times[2]} to ${times[5]} ${times[6]}`
 	
 	return (
 		<div className="card">
-			
-			
 			<header>
 				<h2>{d.route}</h2>
 				<p className="type">{d.alertType}</p>
-				
+
 			</header>
-			<p classname="time">{d.time}</p>
+			<div className="timestamp">
+				<p className="day"><strong>{day}</strong></p>
+				<p className="time">{time}</p>
+			</div>
 			
 			<h4>Details</h4>
 			<p className="info">{d.info}</p>

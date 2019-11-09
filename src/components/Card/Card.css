@@ -11,6 +11,12 @@
 	align-items: center;
 	display: flex;
 }
+.card .timestamp {
+	display: flex;
+}
+.card .day {
+	margin-right: 5px;
+}
 .card .type {
 	background-color: #F58745;
 	border-radius: 5px;

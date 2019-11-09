@@ -6,10 +6,6 @@ import CardList from '../CardList/CardList';
 import './Layout.css';
 
 export class Layout extends Component {
-	constructor(props) {
-		super(props);
-		// this.handleInputChange = this.handleInputChange.bind(this);
-	}
 	state = {
 		data: [],
 		filteredData: []
@@ -31,10 +27,7 @@ export class Layout extends Component {
 
 
 	handleInputChange(event) {
-		console.log(event.target.value)
-		const selectedRoute = this.state.data.filter(d => d.route == event.target.value)
-
-		console.log(selectedRoute)
+		const selectedRoute = this.state.data.filter(d => d.route === event.target.value);
 
 		this.setState({
 			filteredData: selectedRoute
@@ -59,6 +52,3 @@ export class Layout extends Component {
 }
 
 export default Layout;
-
-// <SummaryBox data={this.state.data}></SummaryBox>
-// <ResponsiveTable data={this.state.data}></ResponsiveTable>

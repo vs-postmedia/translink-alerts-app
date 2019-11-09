@@ -14,7 +14,7 @@ const CardList = (props) => {
  		<div className="card-list">
  			{data.map((d,i) => {
  				return (
- 					<Card className='card' data={d} key={d.i} id={d.route}></Card>
+ 					<Card className='card' data={d} key={i} id={d.route}></Card>
  				)
  			})}
  		</div>

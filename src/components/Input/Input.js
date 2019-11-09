@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import Aux from '../Aux/Aux';
 
 export class Input extends Component {
-	constructor(props) {
-		super(props);
-	}
-
 	state = {value: 'Enter a bus number...'};
-
 
 	render() {
 		return (
