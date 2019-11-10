@@ -4,18 +4,21 @@
 	margin: 0 auto 2rem auto;
 	padding: 5px;
 	width: 95%;
-
 }
-
+.card p {
+	margin: 0; 
+}
 .card header {
 	align-items: center;
 	display: flex;
 }
-.card .timestamp {
+.card .schedule {
 	display: flex;
+	justify-content: center;
 }
-.card .day {
-	margin-right: 5px;
+.card .schedule > div {
+	margin: 10px 5px 0 5px;
+	text-align: center;
 }
 .card .type {
 	background-color: #F58745;

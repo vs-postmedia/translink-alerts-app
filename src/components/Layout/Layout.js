@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from '../Aux/Aux';
 import Input from '../Input/Input';
+import SummaryBox from '../SummaryBox/SummaryBox';
 import CardList from '../CardList/CardList';
 import './Layout.css';
 
@@ -33,12 +34,13 @@ export class Layout extends Component {
 		if (this.state.filteredData.length > 0) {
 			results = <CardList data={this.state.filteredData}></CardList>;
 		} else {
-			results = <p>No cancellations</p>;
+			results = <p className="no-data">No cancellations</p>;
 		}
 		return (
 			<Aux>
 				<h1>Are buses cancelled on my route?</h1>
 				<Input onChange={this.handleInputChange.bind(this)}></Input>
+				<SummaryBox data={this.state.data}></SummaryBox>
 				{results}
 				<footer className="footer">Scroll...</footer>
 			</Aux>

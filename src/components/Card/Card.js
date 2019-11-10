@@ -14,11 +14,17 @@ const Card = (props) => {
 			<header>
 				<h2>{d.route}</h2>
 				<p className="type">{d.alertType}</p>
-
 			</header>
-			<div className="timestamp">
-				<p className="day"><strong>{day}</strong></p>
-				<p className="time">{time}</p>
+
+			<div className="schedule">
+				<div className="date">
+					<p className="day"><strong>{day}</strong></p>
+					<p className="time">{time}</p>
+				</div>
+				<div className="update">
+					<p><strong>Last update:</strong></p>
+					<p>about {d.lastUpdate}</p>
+				</div>
 			</div>
 			
 			<h4>Details</h4>
