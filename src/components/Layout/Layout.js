@@ -13,15 +13,22 @@ export class Layout extends Component {
 	};
 
 	componentDidMount() {
-		fetch(this.props.dataURL)
+		fetch(this.props.dataURL, {cache: 'no-store'})
 			.then(response => response.json())
 			.then(data => this.setState({ 
 				data: data.alerts,
 				filteredData: data.alerts,
-				timestamp: data.timestamp
+				timestamp: this.setTimestamp(data.timestamp)
 			}));
 	}
 
+	setTimestamp(timestamp) {
+		const d = new Date(timestamp);
+		const day = d.toLocaleDateString('en-EN', {month: 'short', day: '2-digit'});
+		const time = d.toLocaleTimeString('en-EN', {hour: '2-digit', minute: '2-digit'});
+
+		return `${day}, ${time}`;
+}
 
 	handleInputChange(event) {
 		const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route.includes(event.target.value));
