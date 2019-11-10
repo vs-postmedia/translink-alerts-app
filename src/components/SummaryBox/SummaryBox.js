@@ -30,7 +30,7 @@ const SummaryBox = (props) => {
 
 	return (
 		<div className="summary-box">		
-			<h2>{`${stats.bus} buses on ${stats.route} routes are scheduled to be cancelled.`}</h2>
+			<h2>There are <span className="highlight">{`${stats.bus} buses`}</span> on <span className="highlight">{`${stats.route} routes`}</span> scheduled to be cancelled.</h2>
 		</div>
 	)
 }

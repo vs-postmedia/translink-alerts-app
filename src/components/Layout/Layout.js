@@ -38,7 +38,7 @@ export class Layout extends Component {
 		}
 		return (
 			<Aux>
-				<h1>Are buses cancelled on my route?</h1>
+				<h1>Is my bus cancelled?</h1>
 				<Input onChange={this.handleInputChange.bind(this)}></Input>
 				<SummaryBox data={this.state.data}></SummaryBox>
 				{results}
@@ -49,3 +49,5 @@ export class Layout extends Component {
 }
 
 export default Layout;
+
+//<h1>Are buses cancelled on my route?</h1>
