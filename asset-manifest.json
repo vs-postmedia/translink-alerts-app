@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css",
+    "main.js": "/translink-alerts-app/static/js/main.f3897ac0.chunk.js",
+    "main.js.map": "/translink-alerts-app/static/js/main.f3897ac0.chunk.js.map",
+    "runtime~main.js": "/translink-alerts-app/static/js/runtime~main.2325472d.js",
+    "runtime~main.js.map": "/translink-alerts-app/static/js/runtime~main.2325472d.js.map",
+    "static/js/2.9fbf4d89.chunk.js": "/translink-alerts-app/static/js/2.9fbf4d89.chunk.js",
+    "static/js/2.9fbf4d89.chunk.js.map": "/translink-alerts-app/static/js/2.9fbf4d89.chunk.js.map",
+    "index.html": "/translink-alerts-app/index.html",
+    "precache-manifest.dddf1446fd59af4f72f29f2b7a8009b7.js": "/translink-alerts-app/precache-manifest.dddf1446fd59af4f72f29f2b7a8009b7.js",
+    "service-worker.js": "/translink-alerts-app/service-worker.js",
+    "static/css/main.04ebba2f.chunk.css.map": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css.map",
+    "static/media/index.css": "/translink-alerts-app/static/media/Shift-BoldItalic.5c3edbfd.otf"
+  }
+}
