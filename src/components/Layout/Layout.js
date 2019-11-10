@@ -8,15 +8,17 @@ import './Layout.css';
 export class Layout extends Component {
 	state = {
 		data: [],
-		filteredData: []
+		filteredData: [],
+		timestamp: ''
 	};
 
 	componentDidMount() {
 		fetch(this.props.dataURL)
 			.then(response => response.json())
 			.then(data => this.setState({ 
-				data: data,
-				filteredData: data
+				data: data.alerts,
+				filteredData: data.alerts,
+				timestamp: data.timestamp
 			}));
 	}
 
@@ -42,7 +44,7 @@ export class Layout extends Component {
 				<Input onChange={this.handleInputChange.bind(this)}></Input>
 				<SummaryBox data={this.state.data}></SummaryBox>
 				{results}
-				<footer className="footer">Scroll...</footer>
+				<footer className="footer">{`Last update: ${this.state.timestamp}`}</footer>
 			</Aux>
 		);
 	}

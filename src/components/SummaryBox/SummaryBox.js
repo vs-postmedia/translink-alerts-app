@@ -6,7 +6,7 @@ const SummaryBox = (props) => {
 	function calculateStats(data) {
 		let stats = {
 			bus: 0,
-			route: 0,
+			routes: 0,
 			seabus: 0,
 			routeList: []
 		};
@@ -19,7 +19,7 @@ const SummaryBox = (props) => {
 			// how many routes?
 			if (!stats.routeList.includes(data[i]).route) {
 				stats.routeList.push(data[i].route);
-				stats.route++;
+				stats.routes++;
 			}
 		}
 
@@ -30,7 +30,7 @@ const SummaryBox = (props) => {
 
 	return (
 		<div className="summary-box">		
-			<h2>There are <span className="highlight">{`${stats.bus} buses`}</span> on <span className="highlight">{`${stats.route} routes`}</span> scheduled to be cancelled.</h2>
+			<h2>There are <span className="highlight">{`${stats.bus} buses`}</span> cancelled on <span className="highlight">{`${stats.routes}`}</span> different routes.</h2>
 		</div>
 	)
 }
