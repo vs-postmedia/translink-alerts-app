@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e74458534fcc17341a4eb03b065558a5",
+    "revision": "9671557f086a5f96f9dde55b43f51832",
     "url": "/translink-alerts-app/index.html"
   },
   {
-    "revision": "4952a24c83b36dd258f8",
-    "url": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css"
+    "revision": "5d8df17c6c9dde07be4e",
+    "url": "/translink-alerts-app/static/css/main.4bd69894.chunk.css"
   },
   {
     "revision": "12a93e771bc45e1c06ad",
     "url": "/translink-alerts-app/static/js/2.aec8c39a.chunk.js"
   },
   {
-    "revision": "4952a24c83b36dd258f8",
+    "revision": "5d8df17c6c9dde07be4e",
     "url": "/translink-alerts-app/static/js/main.2eadf6cc.chunk.js"
   },
   {
