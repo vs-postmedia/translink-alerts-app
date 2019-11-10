@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-script": "^2.0.5",
     "react-scripts": "3.0.1",
     "react-super-responsive-table": "^4.3.12",
     "react-table": "^6.10.0",
