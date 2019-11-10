@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "049582893232c0d615e28962b166636b",
+    "revision": "e74458534fcc17341a4eb03b065558a5",
     "url": "/translink-alerts-app/index.html"
   },
   {
-    "revision": "5a1ad907434a5553de98",
+    "revision": "4952a24c83b36dd258f8",
     "url": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css"
   },
   {
-    "revision": "ec14eb012e5d855c520e",
-    "url": "/translink-alerts-app/static/js/2.9fbf4d89.chunk.js"
+    "revision": "12a93e771bc45e1c06ad",
+    "url": "/translink-alerts-app/static/js/2.aec8c39a.chunk.js"
   },
   {
-    "revision": "5a1ad907434a5553de98",
-    "url": "/translink-alerts-app/static/js/main.f3897ac0.chunk.js"
+    "revision": "4952a24c83b36dd258f8",
+    "url": "/translink-alerts-app/static/js/main.2eadf6cc.chunk.js"
   },
   {
-    "revision": "ffef2b9ba4e67e1372eb",
-    "url": "/translink-alerts-app/static/js/runtime~main.2325472d.js"
+    "revision": "f07d7c3aca30edd6fc14",
+    "url": "/translink-alerts-app/static/js/runtime-main.ccf8f688.js"
   },
   {
     "revision": "6f6753fd733a216b24786a168657540a",

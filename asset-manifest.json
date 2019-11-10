@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css",
-    "main.js": "/translink-alerts-app/static/js/main.f3897ac0.chunk.js",
-    "main.js.map": "/translink-alerts-app/static/js/main.f3897ac0.chunk.js.map",
-    "runtime~main.js": "/translink-alerts-app/static/js/runtime~main.2325472d.js",
-    "runtime~main.js.map": "/translink-alerts-app/static/js/runtime~main.2325472d.js.map",
-    "static/js/2.9fbf4d89.chunk.js": "/translink-alerts-app/static/js/2.9fbf4d89.chunk.js",
-    "static/js/2.9fbf4d89.chunk.js.map": "/translink-alerts-app/static/js/2.9fbf4d89.chunk.js.map",
+    "main.js": "/translink-alerts-app/static/js/main.2eadf6cc.chunk.js",
+    "main.js.map": "/translink-alerts-app/static/js/main.2eadf6cc.chunk.js.map",
+    "runtime-main.js": "/translink-alerts-app/static/js/runtime-main.ccf8f688.js",
+    "runtime-main.js.map": "/translink-alerts-app/static/js/runtime-main.ccf8f688.js.map",
+    "static/js/2.aec8c39a.chunk.js": "/translink-alerts-app/static/js/2.aec8c39a.chunk.js",
+    "static/js/2.aec8c39a.chunk.js.map": "/translink-alerts-app/static/js/2.aec8c39a.chunk.js.map",
     "index.html": "/translink-alerts-app/index.html",
-    "precache-manifest.dddf1446fd59af4f72f29f2b7a8009b7.js": "/translink-alerts-app/precache-manifest.dddf1446fd59af4f72f29f2b7a8009b7.js",
+    "precache-manifest.37e73145d3cb6b2de3b253bedeabb8be.js": "/translink-alerts-app/precache-manifest.37e73145d3cb6b2de3b253bedeabb8be.js",
     "service-worker.js": "/translink-alerts-app/service-worker.js",
     "static/css/main.04ebba2f.chunk.css.map": "/translink-alerts-app/static/css/main.04ebba2f.chunk.css.map",
     "static/media/index.css": "/translink-alerts-app/static/media/Shift-BoldItalic.5c3edbfd.otf"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccf8f688.js",
+    "static/js/2.aec8c39a.chunk.js",
+    "static/css/main.04ebba2f.chunk.css",
+    "static/js/main.2eadf6cc.chunk.js"
+  ]
 }
