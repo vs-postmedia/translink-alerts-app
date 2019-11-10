@@ -3,13 +3,13 @@
 	font-family: 'Shift-Bold';
 	font-style: normal;
 	font-weight: 400;
-	font-src: url('../fonts/Shift-Bold.otf') format('otf')
+	src: 'self' url('../fonts/Shift-Bold.otf') format('otf')
 }
 @font-face {
 	font-family: 'Shift-BoldItalic';
 	font-style: italic;
 	font-weight: 800;
-	src: url('../fonts/Shift-BoldItalic.otf') format('otf')
+	src: 'self' url('../fonts/Shift-BoldItalic.otf') format('otf')
 }
 
 /* BENTON SANS */

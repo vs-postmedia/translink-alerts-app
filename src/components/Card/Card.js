@@ -22,7 +22,7 @@ const Card = (props) => {
 					<p className="time">{time}</p>
 				</div>
 				<div className="update">
-					<p><strong>Last update:</strong></p>
+					<p><strong>Last update</strong></p>
 					<p>about {d.lastUpdate}</p>
 				</div>
 			</div>

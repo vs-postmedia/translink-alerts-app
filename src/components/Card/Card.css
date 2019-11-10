@@ -17,8 +17,12 @@
 	justify-content: center;
 }
 .card .schedule > div {
-	margin: 10px 5px 0 5px;
-	text-align: center;
+	margin: 10px auto 5px auto;
+	text-align: left;
+}
+.card .schedule > div > p {
+	color: #6D6E70;
+	margin: 3px;
 }
 .card .type {
 	background-color: #F58745;
