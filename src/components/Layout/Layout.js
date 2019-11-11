@@ -14,6 +14,7 @@ export class Layout extends Component {
 	};
 
 	componentDidMount() {
+		// fetch data file but never take a cached version
 		fetch(this.props.dataURL, {cache: 'no-store'})
 			.then(response => response.json())
 			.then(data => this.setState({ 
@@ -24,9 +25,7 @@ export class Layout extends Component {
 	}
 
 	setTimestamp(timestamp) {
-		const d = Moment.tz(timestamp, 'America/Vancouver').calendar();
-
-		return d;
+		return Moment.tz(timestamp, 'America/Vancouver').calendar();
 	}
 
 	handleInputChange(event) {
