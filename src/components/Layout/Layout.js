@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as Moment from 'moment-timezone';
 import Aux from '../Aux/Aux';
 import Input from '../Input/Input';
 import SummaryBox from '../SummaryBox/SummaryBox';
@@ -23,12 +24,10 @@ export class Layout extends Component {
 	}
 
 	setTimestamp(timestamp) {
-		const d = new Date(timestamp);
-		const day = d.toLocaleDateString('en-EN', {month: 'short', day: '2-digit'});
-		const time = d.toLocaleTimeString('en-EN', {hour: '2-digit', minute: '2-digit'});
+		const d = Moment.tz(timestamp, 'America/Vancouver').calendar();
 
-		return `${day}, ${time}`;
-}
+		return d;
+	}
 
 	handleInputChange(event) {
 		const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route.includes(event.target.value));
