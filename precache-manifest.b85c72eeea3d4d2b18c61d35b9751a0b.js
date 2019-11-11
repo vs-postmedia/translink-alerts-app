@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e1f87e0ab20e463aa261bb75f658634",
+    "revision": "6c8bf2a330fd1567931c3339a6b1f996",
     "url": "/translink-alerts-app/index.html"
   },
   {
-    "revision": "edbbe27e4060bdfa1361",
+    "revision": "b04f144278c53d2a6f19",
     "url": "/translink-alerts-app/static/css/main.5889d4d1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/translink-alerts-app/static/js/2.c030aaa8.chunk.js"
   },
   {
-    "revision": "edbbe27e4060bdfa1361",
-    "url": "/translink-alerts-app/static/js/main.4ffd973d.chunk.js"
+    "revision": "b04f144278c53d2a6f19",
+    "url": "/translink-alerts-app/static/js/main.1a5a0205.chunk.js"
   },
   {
     "revision": "f07d7c3aca30edd6fc14",
