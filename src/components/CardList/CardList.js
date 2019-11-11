@@ -1,7 +1,5 @@
 import React from 'react';
-// import Aux from '../Aux/Aux';
 import Card from '../Card/Card';
-
 import './CardList.css';
 
 

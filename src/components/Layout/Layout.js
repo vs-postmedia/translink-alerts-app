@@ -19,7 +19,7 @@ export class Layout extends Component {
 			.then(response => response.json())
 			.then(data => this.setState({ 
 				data: data.alerts.filter(d => d.transitType === 'bus'), // filter out seabus cancellations
-				filteredData: data.alerts,
+				filteredData: data.alerts.filter(d => d.transitType === 'bus'), // filter out seabus cancellations
 				timestamp: this.setTimestamp(data.timestamp)
 			}));
 	}
@@ -56,5 +56,3 @@ export class Layout extends Component {
 }
 
 export default Layout;
-
-//<h1>Are buses cancelled on my route?</h1>
