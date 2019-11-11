@@ -17,7 +17,7 @@ const SummaryBox = (props) => {
 				stats.bus++
 			} 
 			// how many routes?
-			if (!stats.routeList.includes(data[i]).route) {
+			if (!stats.routeList.includes(data[i].route)) {
 				stats.routeList.push(data[i].route);
 				stats.routes++;
 			}
