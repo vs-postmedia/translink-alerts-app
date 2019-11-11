@@ -18,7 +18,7 @@ export class Layout extends Component {
 		fetch(this.props.dataURL, {cache: 'no-store'})
 			.then(response => response.json())
 			.then(data => this.setState({ 
-				data: data.alerts,
+				data: data.alerts.filter(d => d.transitType === 'bus'), // filter out seabus cancellations
 				filteredData: data.alerts,
 				timestamp: this.setTimestamp(data.timestamp)
 			}));
