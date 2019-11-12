@@ -39,3 +39,10 @@
 .card .info {
 	margin-block-start: 4px;
 }
+
+@media screen and (min-width: 600px) {
+	.card-list .card {
+		margin: 0 auto 1rem auto;
+		width: 45%;
+	}
+}
