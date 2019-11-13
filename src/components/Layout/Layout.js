@@ -29,7 +29,8 @@ export class Layout extends Component {
 	}
 
 	handleInputChange(event) {
-		const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route.includes(event.target.value));
+		// const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route.includes(event.target.value));
+		const selectedRoute = event.target.value === '' ? this.state.data : this.state.data.filter(d => d.route === event.target.value.toUpperCase());
 
 		this.setState({
 			filteredData: selectedRoute
