@@ -3,7 +3,7 @@ import Layout from '../Layout/Layout';
 import './App.css';
 
 // VARS
-const dataURL = 'https://storage.googleapis.com/vs-postmedia-data/alerts.json';
+const dataURL = 'https://vs-postmedia-data.sfo2.digitaloceanspaces.com/alerts.json';
 
 function App() {
 	return (
