@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "moment-timezone": "^0.5.27",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "moment-timezone": "^0.5.31",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -32,7 +32,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "react-scripts": "^3.2.0"
+    "gh-pages": "^2.2.0",
+    "react-scripts": "^3.4.1"
   }
 }
